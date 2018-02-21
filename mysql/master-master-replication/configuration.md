@@ -41,7 +41,7 @@
 
 1. Configure Database Replication
 
-### server 1
+### on server 1
 
     SHOW MASTER STATUS;
 
@@ -52,6 +52,29 @@
     | mysql-bin.000001 |      277 |              |                  |
     +------------------+----------+--------------+------------------+
     1 row in set (0.00 sec)
+
+### on server 2
+
+    STOP SLAVE;
+    CHANGE MASTER TO master_host='x.x.x.x', master_port=3306, master_user='replication', master_password='password', master_log_file='mysql-bin.000001', master_log_pos=277;
+    START SLAVE;
+
+
+    
+    mysql> SHOW MASTER STATUS;
+    +------------------+----------+--------------+------------------+
+    | File             | Position | Binlog_Do_DB | Binlog_Ignore_DB |
+    +------------------+----------+--------------+------------------+
+    | mysql-bin.000001 |      106 |              |                  |
+    +------------------+----------+--------------+------------------+
+   
+
+### on server 1
+
+
+    STOP SLAVE;
+    CHANGE MASTER TO master_host='x.x.x.x', master_port=3306, master_user='replication', master_password='password', master_log_file='mysql-bin.000001', master_log_pos=106;
+    START SLAVE; 
 
 
 
