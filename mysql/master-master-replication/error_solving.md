@@ -21,4 +21,4 @@
 ___
 #### References
 
-(https://www.howtoforge.com/how-to-repair-mysql-replication)
+https://www.howtoforge.com/how-to-repair-mysql-replication
