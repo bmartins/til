@@ -35,7 +35,23 @@
 
 1. Configure the replication users on each host
 
-    GRANT REPLICATION SLAVE ON *.* TO 'replication'@'x.x.x.x' IDENTIFIED BY 'password';
+
+    `GRANT REPLICATION SLAVE ON *.* TO 'replication'@'x.x.x.x' IDENTIFIED BY 'password';`
+
+
+1. Configure Database Replication
+
+### server 1
+
+    SHOW MASTER STATUS;
+
+    mysql> SHOW MASTER STATUS;
+    +------------------+----------+--------------+------------------+
+    | File             | Position | Binlog_Do_DB | Binlog_Ignore_DB |
+    +------------------+----------+--------------+------------------+
+    | mysql-bin.000001 |      277 |              |                  |
+    +------------------+----------+--------------+------------------+
+    1 row in set (0.00 sec)
 
 
 
