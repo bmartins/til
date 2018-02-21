@@ -2,7 +2,7 @@
 
 1. Edit the /etc/mysql/my.cnf file on each of the hosts. Add or modify the following values:
 
-    1. server 1
+### server 1
     
     [mysqld]
     server_id           = 1
@@ -17,7 +17,7 @@
     auto-increment-offset = 1
 
 
-    1. server 2
+### server 2
 
     server_id           = 2
     log_bin             = /var/log/mysql/mysql-bin.log
