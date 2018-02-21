@@ -16,3 +16,9 @@
 1. Restarting replication
 
     START SLAVE; 
+
+
+___
+#### References
+
+(https://www.howtoforge.com/how-to-repair-mysql-replication)
