@@ -1,6 +1,8 @@
 # TIL
 
 * [docker](docker)
+	* [random stuff](docker/random_stuff)
+		* [remove untagged images](docker/random_stuff/remove_untagged_images.md)
 	* [compose](docker/compose)
 		* [limit log size](docker/compose/limit_log_size.md)
 * [mysql](mysql)
