@@ -1,5 +1,8 @@
 # TIL
 
+* [bash](bash)
+	* [read](bash/read)
+		* [read from file or stdin](bash/read/read_from_file_or_stdin.md)
 * [docker](docker)
 	* [compose](docker/compose)
 		* [limit log size](docker/compose/limit_log_size.md)
