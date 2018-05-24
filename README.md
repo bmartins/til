@@ -1,6 +1,8 @@
 # TIL
 
 * [bash](bash)
+	* [if](bash/if)
+		* [compare numbers](bash/if/compare_numbers.md)
 	* [read](bash/read)
 		* [read from file or stdin](bash/read/read_from_file_or_stdin.md)
 * [docker](docker)
