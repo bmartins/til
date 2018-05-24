@@ -8,7 +8,7 @@
         echo not ok;
     fi
 
-### Other Operands
+### Other operators
 
 - Not equal: -ne
 - Greater than: -gt
