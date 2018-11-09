@@ -11,6 +11,8 @@
 	* [random stuff](docker/random_stuff)
 		* [remove untagged images](docker/random_stuff/remove_untagged_images.md)
 * [networking](networking)
+	* [iptables](networking/iptables)
+		* [list iptables rules](networking/iptables/list_iptables_rules.md)
 	* [random](networking/random)
 		* [find process listening on a port](networking/random/find_process_listening_on_a_port.md)
 		* [scan host for open ports](networking/random/scan_host_for_open_ports.md)
