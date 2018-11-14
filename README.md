@@ -5,6 +5,7 @@
 		* [check certificate common name](ssl/certificate/check_certificate_common_name.md)
 		* [check certificate date](ssl/certificate/check_certificate_date.md)
 		* [get certificate from remote host](ssl/certificate/get_certificate_from_remote_host.md)
+		* [check certificate alternative names](ssl/certificate/check_certificate_alternative_names.md)
 * [docker](docker)
 	* [compose](docker/compose)
 		* [limit log size](docker/compose/limit_log_size.md)
