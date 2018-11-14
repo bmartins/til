@@ -19,6 +19,7 @@
 
 ### server 2
 
+    [mysqld]
     server_id           = 2
     log_bin             = /var/log/mysql/mysql-bin.log
     log_bin_index       = /var/log/mysql/mysql-bin.log.index
